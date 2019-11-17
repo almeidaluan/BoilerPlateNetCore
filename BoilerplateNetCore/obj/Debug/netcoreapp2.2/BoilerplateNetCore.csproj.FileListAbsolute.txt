@@ -1,0 +1,14 @@
+/home/luan/Documentos/BoilerplateNetCore/obj/Debug/netcoreapp2.2/BoilerplateNetCore.csprojAssemblyReference.cache
+/home/luan/Documentos/BoilerplateNetCore/obj/Debug/netcoreapp2.2/BoilerplateNetCore.csproj.CoreCompileInputs.cache
+/home/luan/Documentos/BoilerplateNetCore/obj/Debug/netcoreapp2.2/BoilerplateNetCore.RazorAssemblyInfo.cache
+/home/luan/Documentos/BoilerplateNetCore/obj/Debug/netcoreapp2.2/BoilerplateNetCore.RazorAssemblyInfo.cs
+/home/luan/Documentos/BoilerplateNetCore/obj/Debug/netcoreapp2.2/BoilerplateNetCore.AssemblyInfoInputs.cache
+/home/luan/Documentos/BoilerplateNetCore/obj/Debug/netcoreapp2.2/BoilerplateNetCore.AssemblyInfo.cs
+/home/luan/Documentos/BoilerplateNetCore/bin/Debug/netcoreapp2.2/BoilerplateNetCore.deps.json
+/home/luan/Documentos/BoilerplateNetCore/bin/Debug/netcoreapp2.2/BoilerplateNetCore.runtimeconfig.json
+/home/luan/Documentos/BoilerplateNetCore/bin/Debug/netcoreapp2.2/BoilerplateNetCore.runtimeconfig.dev.json
+/home/luan/Documentos/BoilerplateNetCore/bin/Debug/netcoreapp2.2/BoilerplateNetCore.dll
+/home/luan/Documentos/BoilerplateNetCore/bin/Debug/netcoreapp2.2/BoilerplateNetCore.pdb
+/home/luan/Documentos/BoilerplateNetCore/obj/Debug/netcoreapp2.2/BoilerplateNetCore.RazorTargetAssemblyInfo.cache
+/home/luan/Documentos/BoilerplateNetCore/obj/Debug/netcoreapp2.2/BoilerplateNetCore.dll
+/home/luan/Documentos/BoilerplateNetCore/obj/Debug/netcoreapp2.2/BoilerplateNetCore.pdb
