@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BoilerplateNetCore.gateway;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BoilerplateNetCore.Controllers
@@ -10,11 +11,16 @@ namespace BoilerplateNetCore.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        private readonly IPersonRepository personRepository;
+        public ValuesController(IPersonRepository personRepository){
+            this.personRepository = personRepository;
+        }
+
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public IActionResult Get()
         {
-            return new string[] { "value1", "value2" };
+            return Ok(personRepository.listPerson());
         }
 
         // GET api/values/5

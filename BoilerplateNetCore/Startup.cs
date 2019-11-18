@@ -29,11 +29,11 @@ namespace BoilerplateNetCore
         
         public void ConfigureServices(IServiceCollection services)
         {
-            var connection = Configuration["MySqlConnection:MySqlConnectionString"];
+            var connection = Configuration["Mysql:MysqlStringConnection"];
             
             services.AddDbContext<MySQLContext>(options => options.UseMySql(connection));
-            services.AddScoped<IHeroRepository,HeroRepositoryImpl>();
-            services.AddSingleton<IConnectionFactory,MysqlDapper>();
+            services.AddScoped<IPersonRepository,PersonRepositoryImpl>();
+            //services.AddSingleton<IConnectionFactory,MysqlDapper>();
             
             services.AddMvc();
 
